@@ -1,4 +1,4 @@
-## Inspiration  
+## Inspiration 
 While working on a graph clustering algorithm, I encountered a conundrum where I didn't know whether to store my data in a dictionary or a heap.  The advantage of a dictionary was that the data could be referenced in O(1), but the downside was that it would take O(n) to find the min value.  The advantage of a heap was that the min value could be found in O(logn), but looking up a value by key would be impossible.  I needed a data structure that had all of the benefits of a dictionary and a heap.  Thus, I created the searchHeap.
 
 ## Functions
